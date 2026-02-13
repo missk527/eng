@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Tree</title>
+<style>
+    :root{
+      --pink:#ffb6c1;         
+      --light-pink:#ffe4f1;   
+      --white:#FFFFFF;
+      --text:#2B2B2B;
+      --shadow:0 10px 25px rgba(0,0,0,.12);
+      --radius:18px;
+    }
+    * { box-sizing: border-box; }
+    body{
+      margin:0;
+      font-family: Arial, sans-serif;
+      color:var(--text);
+      background: linear-gradient(180deg, var(--light-pink) 0%, #fff 100%);
+    }
+    header{
+      background:var(--white);
+      border-bottom:6px solid var(--pink);
+      text-align:center;
+      padding:22px 16px;
+    }
+    h1{
+      margin:0;
+      font-size:32px;
+      color:var(--pink);
+      font-weight:800;
+    }
+    main{
+      display:grid;
+      place-items:center;
+      padding:24px;
+    }
+    .card{
+      width:min(100%, 1080px);
+      background:var(--white);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:18px;
+    }
+    .video-wrapper{
+      position:relative;
+      width:100%;
+      aspect-ratio:16 / 9;
+      border-radius:12px;
+      overflow:hidden;
+      border:6px solid var(--pink);
+    }
+    iframe{
+      width:100%;
+      height:100%;
+      border:0;
+    }
+    .topic{
+      margin-top:20px;
+      font-size:20px;
+      font-weight:700;
+      color:var(--pink);
+    }
+    .notes{
+      margin-top:14px;
+      padding:16px;
+      background:var(--light-pink);
+      border-left:6px solid var(--pink);
+      border-radius:var(--radius);
+    }
+    .notes li{
+      margin-bottom:12px;
+      line-height:1.6;
+    }
+  </style>
+</head>
+<body>
+<header>
+<h1>Tree</h1>
+</header>
+<main>
+<section class="card">
+<div class="video-wrapper">
+<iframe src="https://www.youtube.com/embed/6iLbna9E_nA" allowfullscreen></iframe>
+</div>
+<p>
+Video link: 
+<a href="https://youtu.be/6iLbna9E_nA" target="_blank">https://youtu.be/6iLbna9E_nA</a>
+</p>
+
+<div class="topic">Practice: Descriptive Sentences (Tree)</div>
+<div class="notes">
+<ol>
+  <li>The ancient tree rises proudly, its twisted branches stretching like giant arms toward the golden sky.</li>
+  <li>Sunlight filters softly through the emerald leaves, painting dancing shadows across the grass.</li>
+  <li>The rough, weathered bark tells silent stories of countless seasons.</li>
+  <li>Moss-covered roots grip the earth like powerful fingers, holding the tree firmly in place.</li>
+  <li>A gentle breeze whispers through the leaves, creating a peaceful natural melody.</li>
+  <li>Standing beneath the tree feels like resting under a quiet guardian.</li>
+  <li>Its thick trunk stands strong and steady, as if protecting everything around it.</li>
+  <li>Golden light sparkles between the branches like tiny stars hidden in the forest.</li>
+  <li>The graceful curves of its limbs form beautiful patterns against the glowing sky.</li>
+  <li>Soft sunlight warms the forest floor, filling the air with calm and comfort.</li>
+  <li>The tree seems wise, as though it remembers every sunrise and sunset.</li>
+  <li>Shadows dance beneath its branches, moving gently with the passing wind.</li>
+  <li>Surrounded by nature, the majestic tree breathes life into the peaceful field.</li>
+  <li>Time appears to slow down beside this ancient giant.</li>
+  <li>This magnificent tree stands as a symbol of strength, patience, and quiet beauty.</li>
+</ol>
+</div>
+</section>
+</main>
+</body>
+</html>
